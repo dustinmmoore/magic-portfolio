@@ -24,12 +24,12 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/dustinmmoore',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/dustinmmoore/',
     },
     {
         name: 'X',
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Web Developer and Designer</>,
-    subline: <>I'm Dustin, a <InlineCode>freelance</InlineCode> Web Developer. I create intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Front-End Web Developer</>,
+    subline: <>Hi! I’m Dustin, a <InlineCode>front-end web developer</InlineCode>dedicated to crafting intuitive user experiences. After hours, I dive into personal projects, exploring new ideas and modern frameworks.</>
 }
 
 const about = {
@@ -69,7 +69,12 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>
+I’m a front-end web developer with a strong foundation in creating responsive, user-centric web solutions. My journey in web development began with foundational projects on Squarespace, where I built my skills in design and functionality. As my knowledge expanded, I transitioned to more advanced frameworks, including React, Bootstrap, and Next.js, enabling me to deliver high-quality, seamless experiences across digital platforms.
+
+I’m experienced in using tools like Git, GitHub, and Vercel for efficient version control and deployment, allowing me to streamline workflows and deliver projects with precision. By embracing the latest innovations and leveraging AI, I prioritize efficiency and stay ahead of industry standards, consistently delivering projects on time and often ahead of schedule.
+
+Today, I’m passionate about building intuitive, engaging web experiences that resonate with users and drive meaningful results. I’m excited to connect with other professionals and explore new opportunities to bring value and innovation to every project.</>
     },
     work: {
         display: true, // set to false to hide this section
