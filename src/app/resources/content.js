@@ -70,11 +70,8 @@ const about = {
         display: true,
         title: 'Introduction',
         description: <>
-I’m a front-end web developer with a strong foundation in creating responsive, user-centric web solutions. My journey in web development began with foundational projects on Squarespace, where I built my skills in design and functionality. As my knowledge expanded, I transitioned to more advanced frameworks, including React, Bootstrap, and Next.js, enabling me to deliver high-quality, seamless experiences across digital platforms.
-
-I’m experienced in using tools like Git, GitHub, and Vercel for efficient version control and deployment, allowing me to streamline workflows and deliver projects with precision. By embracing the latest innovations and leveraging AI, I prioritize efficiency and stay ahead of industry standards, consistently delivering projects on time and often ahead of schedule.
-
-Today, I’m passionate about building intuitive, engaging web experiences that resonate with users and drive meaningful results. I’m excited to connect with other professionals and explore new opportunities to bring value and innovation to every project.</>
+I’m a front-end developer with a focus on creating responsive, user-centered web experiences. Starting with Squarespace, I quickly progressed to advanced frameworks like React, Bootstrap, and Next.js, allowing me to build seamless, high-quality digital solutions. I leverage tools like Git, GitHub, and Vercel to streamline workflows and ensure efficient deployment, consistently delivering projects on or ahead of schedule. By embracing AI and industry innovations, I prioritize efficiency and modern standards, crafting engaging, intuitive web experiences that drive results. Let’s connect to explore impactful opportunities together.
+</>
     },
     work: {
         display: true, // set to false to hide this section
