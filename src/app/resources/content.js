@@ -7,7 +7,7 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Web Developer',
-    avatar:    '/images/avatar.jpg',
+    avatar:    '/images/fam.png',
     location:  'America/New_York', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Developer and Designer</>,
-    subline: <>I'm Dustin, a freelance Web Developer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Web Developer and Designer</>,
+    subline: <>I'm Dustin, a <InlineCode>freelance</InlineCode> Web Developer. I create intuitive<br/> user experiences. After hours, I build my own projects.</>
 }
 
 const about = {
