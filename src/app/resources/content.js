@@ -198,7 +198,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
             },
             {
                 title: 'Deployment Platforms',
-                description: <>Vercel | Netlify | AWS | Heroku | DigitalOcean</>,
+                description: <>Vercel | Netlify | AWS</>,
                 images: [
                     {
                         src: '/images/projects/project-01/vercel-01.png',
