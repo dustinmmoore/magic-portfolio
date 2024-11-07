@@ -8,12 +8,12 @@ const person = {
     },
     role:      'Web Developer',
     avatar:    '/images/fam.png',
-    location:  'America/New_York', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+ // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
-    display: true,
+    display: false,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
     description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
 }
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Front-End Web Developer</>,
-    subline: <>Hi! I’m Dustin, a <InlineCode>web developer</InlineCode> driven to deliver human-centric designs with clean code. In my spare time, I work on personal projects that let me explore new frameworks and development techniques, constantly refining my skills and staying up-to-date with the latest in web technology.</>
+    headline: <>Shaping Digital Experiences with Passion and Purpose</>,
+    subline: <>Hi! I’m Dustin, a <InlineCode>web developer</InlineCode>focused on creating engaging digital experiences with clean, <InlineCode>efficient code</InlineCode>. In my spare time, I dive into personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest web technologies.</>
 }
 
 const about = {
@@ -88,7 +88,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
+                        src: '/images/projects/project-01/port-01.png',
                         alt: 'Once UI Project',
                         width: 16,
                         height: 9
@@ -105,7 +105,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
                 ],
                 images: [// optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
+                        src: '/images/projects/project-01/ks-03.png',
                         alt: 'Once UI Project',
                         width: 16,
                         height: 9
@@ -140,7 +140,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
                 description: <>React | Next.js | Angular | Vue.js</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/projects/project-01/code-01.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -153,7 +153,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
                 description: <>Webpack | Gulp | npm/Yarn | Continuous integration (CI/CD) with GitHub Actions</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
+                        src: '/images/projects/project-01/flow-01.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -185,11 +185,11 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
                 ]
             },
             {
-                title: 'UI Libraries and Frameworks',
+                title: 'UI Libraries & Frameworks',
                 description: <>Bootstrap | Material-UI | Tailwind CSS</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/tw.png',
+                        src: '/images/projects/project-01/bootstrap-01.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -209,11 +209,11 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
                 ]
             },
             {
-                title: 'Version Control',
+                title: 'Version Control & Collaboration',
                 description: <>Git | GitHub</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/github-01.png',
+                        src: '/images/projects/project-01/github-02.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
