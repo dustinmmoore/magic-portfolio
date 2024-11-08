@@ -138,87 +138,37 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
             {
                 title: 'Front-End Frameworks',
                 description: <>React | Next.js | Angular | Vue.js</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/code-01.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    
-                ]
+                images: [] 
             },
             {
                 title: 'Automation & Workflow Optimization',
                 description: <>Webpack | Gulp | npm/Yarn | Continuous integration (CI/CD) with GitHub Actions</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/flow-01.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             },
             {
                 title: 'Web Development Languages',
                 description: <>HTML | CSS | JavaScript | TypeScript</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/lang.jpeg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             },
             {
                 title: 'Responsive Design',
                 description: <>CSS Grid | Flexbox | Media Queries | Mobile-First design</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/responsive-web-design.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             },
             {
                 title: 'UI Libraries & Frameworks',
                 description: <>Bootstrap | Material-UI | Tailwind CSS</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/bootstrap-01.png',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             },
             {
                 title: 'Deployment Platforms',
                 description: <>Vercel | Netlify | AWS</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/vercel-01.png',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             },
             {
                 title: 'Version Control & Collaboration',
                 description: <>Git | GitHub</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/github-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             }
         ]
     }
