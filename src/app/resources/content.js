@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Web Developer',
+    role:      'Front-End Developer',
     avatar:    '/images/fam.png',
     location: 'America/New_York', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Shaping Digital Experiences with Passion and Purpose</>,
-    subline: <>Hi! I’m Dustin, a <InlineCode>web developer</InlineCode>focused on creating engaging digital experiences with clean, <InlineCode>efficient code</InlineCode>. In my spare time, I dive into personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest web technologies.</>
+    subline: <>Hi! I’m Dustin, a <InlineCode>front-end developer</InlineCode> focused on creating engaging digital experiences with clean, <InlineCode>efficient code</InlineCode>. In my spare time, I dive into personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest web technologies.</>
 }
 
 const about = {
@@ -78,9 +78,9 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
         title: 'Work Experience',
         experiences: [
             {
-                company: 'Freelance',
-                timeframe: '2021 - Present',
-                role: 'Web Developer',
+                company: 'Upwork Freelancer',
+                timeframe: '2024 - Present',
+                role: 'Front-End Developer',
                 achievements: [
                     <>Developed small business apps using Next.js and React, combining dynamic routing and optimized performance features to showcase my projects effectively. These apps highlight my expertise in modern web development, including responsive design and seamless navigation.</>,
                     <>Experienced in using Git and GitHub for version control, maintaining organized code management and collaboration, with streamlined workflows for deploying apps to Vercel for fast, reliable updates</>,
@@ -98,7 +98,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
             {
                 company: 'Kinetic Solutions LLC',
                 timeframe: '2021 - Present',
-                role: 'Lead Designer/Web Developer',
+                role: 'Lead Designer/Front-End Developer',
                 achievements: [
                     <>Engineered a dynamic business site, utilizing advanced customization options, integrated SEO capabilities, and responsive design to deliver a high-performance platform that amplifies brand presence and optimizes client interactions.</>,
                     <>Developed and maintained a high-performance eCommerce shop, incorporating secure payment gateways and streamlined navigation to provide a seamless shopping experience and drive sales growth.</>
