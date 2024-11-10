@@ -14,7 +14,7 @@ const routes = {
     '/about':   true,
     '/work':    true,
     '/blog':    true,
-    '/gallery': true,
+    '/gallery': false,
 }
 
 // Enable password protection on selected routes
@@ -42,8 +42,8 @@ const style = {
 }
 
 const display = {
-    location: true,
-    time:     true,
+    location: false,
+    time:     false,
 }
 
 const mailchimp = {
