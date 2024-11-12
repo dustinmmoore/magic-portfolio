@@ -1,48 +1,31 @@
 ---
-title: "Static vs. Dynamic Web Apps: Choosing the Right Approach for Your Project"
-publishedAt: "2024-09-05"
-summary: "Choosing between a static or dynamic web app depends on the project's needs: static apps are ideal for speed, security, and unchanging content, while dynamic apps excel with personalization, frequent updates, and user interaction, often with a hybrid approach being the best solution."
+title: "From Lines of Code to Checkered Paths: My Journey with Dustin's Checkers"
+publishedAt: "2024-11-12"
+summary: "I share my journey of building a web-based checkers game, describing the challenges I faced with creating the game logic and mobile compatibility, and the rewarding process of bringing it all to life, while inviting others to collaborate."
 ---
 
-In the world of web development, one of the most critical decisions you face early on is whether to build a static or dynamic web application. Each has its own strengths and ideal use cases, and choosing the right approach can significantly impact the performance, scalability, and user experience of your final product. Let’s dive into when you should opt for a static web app versus when a dynamic solution is the right fit.
+**From Lines of Code to Checkered Paths: My Journey with Dustin's Checkers**
 
-**Understanding Static Web Apps**
+Have you ever worked on something that was so simple on the surface, yet surprisingly intricate once you dived into it? That's exactly how I felt creating **Dustin's Checkers**. It started as a casual idea—a little web-based version of the classic game we all know. I wanted to brush up on some front-end skills, and what better way to do it than bringing a piece of childhood nostalgia to life?
 
-A static web app delivers pre-rendered content that remains consistent for every visitor. Essentially, each page is a collection of HTML, CSS, and JavaScript files that are generated ahead of time and served directly to the user without additional backend processing. This simplicity results in incredibly fast load times, since there are no server-side computations or database interactions required when a user requests a page.
+Building a checkers game seemed like a perfect blend of creativity and logic. You have the colors, the board, the rules—a mix of simplicity and strategy. But let me tell you, it's always the deceptively simple projects that push you the hardest. I thought I'd just set up a board, get some draggable pieces, and call it a day. I couldn't have been more wrong.
 
-Static web apps are ideal for projects where the content is relatively unchanging. If you’re building a landing page, a portfolio, or a marketing site that doesn’t need frequent updates, a static approach can be a perfect fit. Thanks to static site generators like Next.js, Gatsby, and Hugo, creating static sites has become incredibly efficient. The benefits include superior performance, simpler hosting, enhanced security (since there’s no server to compromise), and lower costs, as static sites can be easily deployed to a content delivery network (CDN).
+The first challenge came with building the board itself. I wanted it to feel right—that satisfying symmetry of a checkers board where the tiles click into place perfectly. I spent hours getting the CSS right, adjusting widths and heights, battling with flexboxes and grids until the board finally had the look I envisioned. The aesthetic wasn't just for me; it was for anyone who played it. I wanted people to feel like they had stepped into a medieval setting, hence the **MedievalSharp** font that added a subtle touch of whimsy.
 
-However, static web apps do come with limitations. They can be cumbersome to maintain if your content changes frequently, and they lack the interactive features users expect from more complex applications. To add dynamic content, developers often rely on third-party services or client-side JavaScript, but this can complicate the development process.
+Next came the game logic. This was where the "simple" part ended. Writing JavaScript to handle the movements, turns, and especially the jumps was like trying to choreograph a dance with partners that had a mind of their own. Pieces needed to recognize valid moves, follow diagonal paths, and sometimes jump over opponents. And then there was the switching of turns—figuring out how to handle not just moving pieces, but making sure the right player had their chance at the board. Writing this part involved a lot of trial and error, a lot of broken moves, and a lot of moments where I'd swear my code had a vendetta against me.
 
-**When to Choose a Static Web App**
+One of my favorite moments was when I finally got the jump logic working—that magical moment where Player 1's red piece hopped over Player 2's black piece and everything behaved the way it was supposed to. It was a simple movement, but to me, it was the culmination of hours of thinking, coding, testing, and a fair bit of yelling at my computer screen. It's funny how these little victories in programming can feel as rewarding as winning an actual game.
 
-- **Content Consistency**: If your content rarely changes—like a company homepage or an online resume—static is the way to go.
-- **SEO Performance**: Since all content is pre-rendered, static web apps load quickly, which is a huge plus for search engine optimization.
-- **Security Requirements**: Without a server or database to worry about, static web apps are less susceptible to vulnerabilities like SQL injection.
-- **Scalability**: When anticipating high traffic, a static site’s ability to serve thousands of users from a CDN without server-side processing ensures your site stays fast and responsive.
+Adding in the scoring system came next, and it gave me a new perspective on the thrill of competition. Every time a piece gets captured, the score updates, and I remember how satisfying it was to see those numbers finally change properly. To me, the score wasn't just a feature—it represented progress, both in the game and in my development journey. Seeing those numbers go up reminded me of all the challenges overcome to make that happen.
 
-**Dynamic Web Apps: Interactive and Responsive**
+Of course, no modern web project is complete without thinking about how it looks and feels, so I couldn't leave out some personal branding touches. Adding the contact section at the end felt almost like signing my work. I wanted anyone who played **Dustin's Checkers** to know who built it, to see my journey reflected in those clickable links—to my website, LinkedIn, and GitHub. This was more than just a game; it was a digital piece of me.
 
-A dynamic web app, by contrast, generates content on the fly, often incorporating data from a server or database that can change based on user input. The content is personalized and interactive, which is essential for applications like eCommerce platforms, social networks, and dashboards where users expect unique experiences based on their actions.
+Then there was the challenge of getting everything to work smoothly on mobile devices. Adding touch functionality brought its own set of complications. The drag-and-drop interactions that work seamlessly on a desktop often become finicky on a touchscreen. Taps and swipes are trickier to manage compared to precise mouse movements, and making sure pieces move correctly without accidental gestures triggering the wrong actions has been an ongoing battle. It's a work in progress, and I'm still refining the experience to make sure **Dustin's Checkers** feels just as fun and intuitive on mobile as it does on desktop. 
 
-Dynamic web apps can use frameworks like Django, Express.js, or even modern full-stack solutions like Next.js, which support both static and server-side rendering. The flexibility provided by dynamic apps allows developers to create personalized experiences—for example, user accounts, comments sections, product recommendations, and other content that updates in real time.
+I won't pretend it's a groundbreaking project or that it solves any major problems. But **Dustin's Checkers** is mine. It's a reminder of why I love coding—of the way you can take a simple concept and break it into a thousand little problems that need solving. It's about the satisfaction of seeing something that once lived only in your imagination come to life on the screen, tile by tile, piece by piece.
 
-The trade-off, however, is that dynamic web apps can be more complex to develop and maintain. They require a backend, server resources, and potentially more sophisticated infrastructure to handle scaling and security. Additionally, while modern dynamic apps can still be fast, they often can't match the raw performance of static sites, particularly if server-side bottlenecks are introduced.
+Feel free to check out the *BETA* here: [https://dustinmmoore.github.io/dustins-checkers](https://dustinmmoore.github.io/dustins-checkers)
 
-**When to Choose a Dynamic Web App**
+If you're interested in collaborating, you can check out the GitHub repository here: https://github.com/dustinmmoore/dustins-checkers.If you're interested in collaborating, you can check out the GitHub repository here: https://github.com/dustinmmoore/dustins-checkers.
 
-- **User Interaction**: If users need to interact with the application beyond simple navigation—such as filling out forms, logging in, or shopping—a dynamic approach is essential.
-- **Content Changes Frequently**: For news sites, blogs, or any platform where new content is uploaded regularly, a dynamic app makes it easier to manage and serve fresh content without rebuilding the entire site.
-- **Personalization**: If you need to customize content based on user preferences, inputs, or profiles—such as a social network or a personalized dashboard—dynamic functionality is necessary.
-
-**The Hybrid Approach**
-
-In many cases, the best solution lies somewhere in the middle. Modern frameworks like Next.js make it possible to create hybrid applications that combine static and dynamic features. For example, you can use static site generation (SSG) for pages that don’t change often, while relying on server-side rendering (SSR) for pages that need to be personalized or updated in real-time.
-
-This hybrid approach lets you balance performance, scalability, and interactivity. You can serve static content quickly through a CDN, while still offering dynamic elements that make your web app engaging and responsive. This flexibility is ideal for blogs with user comments, eCommerce sites that want fast product pages, or SaaS platforms where both public information and user-specific data coexist.
-
-**Conclusion: Making the Right Choice**
-
-Choosing between a static or dynamic web app ultimately depends on your project’s requirements. If you need speed, security, and ease of deployment, static is often the better choice. On the other hand, if personalization, interaction, and content management are at the heart of your project, a dynamic approach is more suitable.
-
-For many projects, combining static and dynamic elements gives the best of both worlds—a fast, secure experience with all the interactivity users crave. With the right tools and frameworks at your disposal, you can decide on the right mix that meets your needs and delivers an impactful user experience.
+So, if you ever get the chance, give it a try. Pull up a chair, grab a friend, and lose yourself in a few moves of checkers. As simple as it is, I promise you—behind every red and black piece, there's a story of patience, perseverance, and the love of making things work, even when they seem impossible.
