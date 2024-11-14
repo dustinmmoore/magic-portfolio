@@ -142,7 +142,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
             },
             {
                 title: 'Automation & Workflow Optimization',
-                description: <>Webpack | Gulp | npm/Yarn | Continuous integration (CI/CD) with GitHub Actions</>,
+                description: <>Webpack | Gulp | npm | Continuous integration (CI/CD) with GitHub Actions</>,
                 images: []
             },
             {
