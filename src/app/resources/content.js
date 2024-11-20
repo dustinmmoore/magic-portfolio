@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Shaping Digital Experiences with Passion and Purpose</>,
-    subline: <>Hi! I’m Dustin, a <InlineCode>front-end developer</InlineCode> focused on creating engaging digital experiences with clean, <InlineCode>efficient code</InlineCode>. In my spare time, I dive into personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest web technologies.</>
+    subline: <>Hi! I’m Dustin, a <InlineCode>full-stack developer</InlineCode> focused on creating engaging digital experiences with clean, efficient code. Whether it's crafting responsive front-end interfaces or building robust back-end solutions, I love diving into every aspect of web development. In my spare time, I work on personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest technologies.</>
 }
 
 const about = {
@@ -70,7 +70,7 @@ const about = {
         display: true,
         title: 'Introduction',
         description: <>
-I’m a front-end developer with a focus on creating responsive, user-driven web experiences. Starting with Squarespace, I quickly progressed to advanced frameworks like React, Bootstrap, and Next.js, allowing me to build seamless, high-quality digital solutions. I leverage tools such as Git, GitHub, and Vercel to streamline workflows and ensure efficient deployment, consistently delivering projects ahead of schedule. By embracing AI and industry innovations, I prioritize efficiency and modern standards, crafting engaging, intuitive web experiences that drive results.
+I’m a full-stack developer specializing in responsive, user-focused web experiences. Starting with Squarespace, I quickly advanced to frameworks like React, Bootstrap, and Next.js, along with Node.js for back-end development, allowing me to build seamless, high-quality digital solutions from end to end. I use tools like Git, GitHub, and Vercel to optimize workflows and ensure efficient deployment, consistently delivering projects on time. By embracing AI and modern technologies, I prioritize efficiency and industry standards, crafting intuitive, engaging web experiences that drive results.
 </>
     },
     work: {
@@ -78,38 +78,42 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
         title: 'Work Experience',
         experiences: [
             {
-                company: 'Upwork Freelancer',
+                company: 'Freelancer',
                 timeframe: '2024 - Present',
-                role: 'Front-End Developer',
+                role: 'Full-Stack Developer',
                 achievements: [
-                    <>Developed small business apps using Next.js and React, combining dynamic routing and optimized performance features to showcase my projects effectively. These apps highlight my expertise in modern web development, including responsive design and seamless navigation.</>,
-                    <>Experienced in using Git and GitHub for version control, maintaining organized code management and collaboration, with streamlined workflows for deploying apps to Vercel for fast, reliable updates</>,
-                    <>Employed AI tools to streamline my workflow, optimize project efficiency, and deliver high-quality results ahead of schedule, using innovations to enhance both development speed and user experience.</>
+                    <>I develop full-stack applications and websites for small businesses. Using Next.js and React, I focus on dynamic routing and server-side rendering for better performance and SEO. For static sites, I use HTML, CSS, and JavaScript to create clean, user-friendly platforms that showcase services effectively.</>,
+                    <>Utilizing Git and GitHub for organized version control and efficient collaboration. I streamline deployment with Vercel, ensuring fast, reliable updates that keep projects running smoothly.</>,
+                    <>Leveraging AI tools to enhance productivity, meet deadlines, and deliver high-quality results. These innovations help improve development speed and elevate the overall user experience, supporting clients in reaching their business goals.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/port-01.png',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                images: []
             },
             {
                 company: 'Kinetic Solutions LLC',
                 timeframe: '2021 - Present',
-                role: 'Lead Designer/Front-End Developer',
+                role: 'Instructor / Full-Stack Developer',
                 achievements: [
-                    <>Engineered a dynamic business site, utilizing advanced customization options, integrated SEO capabilities, and responsive design to deliver a high-performance platform that amplifies brand presence and optimizes client interactions.</>,
-                    <>Developed and maintained a high-performance eCommerce shop, incorporating secure payment gateways and streamlined navigation to provide a seamless shopping experience and drive sales growth.</>
+                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By creating a user-friendly website, I make it easy for clients to connect with us, highlight our services, and expand our reach, helping our business grow.</>
                 ],
-                images: [// optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/ks-03.png',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    } ]
+                images: []
+            },
+            {
+                company: 'Sawmill Tactical Training Complex',
+                timeframe: '2021 - 2022',
+                role: 'Director of Operations',
+                achievements: [
+                    <>As Director of Operations at the Sawmill Tactical Training Center, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the center’s digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
+                ],
+                images: []
+            },
+            {
+                company: 'United States Army',
+                timeframe: '2004 - 2015',
+                role: 'Sniper Team Leader / Recon Team Leader / Infantry Squad Leader',
+                achievements: [
+                    <>During my 11 years in the US Army, I held leadership roles such as Battalion Sniper Section Leader, Recon Team Leader, and Infantry Squad Leader. I developed and led training programs, managed assets worth over $5 million, and led teams in complex multinational missions. I also created protocols for classified operations and consistently achieved top scores in tactical training, showing my dedication to excellence and team effectiveness.</>
+                ],
+                images: []
             }
         ]
     },
@@ -137,7 +141,7 @@ I’m a front-end developer with a focus on creating responsive, user-driven web
         skills: [
             {
                 title: 'Front-End Frameworks',
-                description: <>React | Next.js | Angular | Vue.js</>,
+                description: <>React | Node.js | Next.js | Vue.js</>,
                 images: [] 
             },
             {
