@@ -93,16 +93,16 @@ I’m a full-stack developer specializing in responsive, user-focused web experi
                 timeframe: '2021 - Present',
                 role: 'Instructor / Full-Stack Developer',
                 achievements: [
-                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By creating a user-friendly website, I make it easy for clients to connect with us, highlight our services, and expand our reach, helping our business grow.</>
+                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By designing a user-friendly website, I simplify client connections, effectively showcase our work, and expand our reach—driving growth for our business.</>
                 ],
                 images: []
             },
             {
-                company: 'Sawmill Tactical Training Complex',
+                company: 'Sawmill TTC',
                 timeframe: '2021 - 2022',
                 role: 'Director of Operations',
                 achievements: [
-                    <>As Director of Operations at the Sawmill Tactical Training Center, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the center’s digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
+                    <>As Director of Operations at the Sawmill Tactical Training Complex, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
                 ],
                 images: []
             },
