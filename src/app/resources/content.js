@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Shaping Digital Experiences with Passion and Purpose</>,
-    subline: <>Hi! I’m Dustin, a <InlineCode>full-stack developer</InlineCode> focused on creating engaging digital experiences with clean, efficient code. Whether it's crafting responsive front-end interfaces or building robust back-end solutions, I love diving into every aspect of web development. In my spare time, I work on personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest technologies.</>
+    subline: <>Hey there! I’m Dustin, a <InlineCode>full-stack developer</InlineCode> passionate about building engaging digital experiences with clean, efficient code. From designing responsive front-end interfaces to developing rock-solid back-end solutions, I thrive on tackling every part of web development. In my spare time, I dive into personal projects to experiment with new frameworks and techniques—always sharpening my skills and staying ahead of the curve.</>
 }
 
 const about = {
