@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Shaping Digital Experiences with Passion and Purpose</>,
-    subline: <>Hi! I’m Dustin, a <InlineCode>full-stack developer</InlineCode> focused on creating engaging digital experiences with clean, efficient code. Whether it's crafting responsive front-end interfaces or building robust back-end solutions, I love diving into every aspect of web development. In my spare time, I work on personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest technologies.</>
+    subline: <>Hi! I’m Dustin, a detail-oriented <InlineCode>IT and Web Solutions Engineer</InlineCode> with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve specialized in full-stack web development, designing responsive, user-friendly websites using modern frameworks. My combined expertise in IT and web development enables me to deliver seamless, efficient, and reliable digital solutions tailored to meet diverse needs.</>
 }
 
 const about = {
@@ -81,14 +81,19 @@ const about = {
                 timeframe: '2021 - Present',
                 role: 'Full-Stack Developer / Business Owner / Instructor',
                 achievements: [
-                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By creating a user-friendly website, I make it easy for clients to connect with us, highlight our services, and expand our reach, helping our business grow.</>
+                    <>Founded Kinetic Solutions LLC, delivering hands-on tactical training to civilians, law enforcement, and military personnel.</>,
+                    <>Designed and developed responsive websites using HTML, CSS, JavaScript, React.js, NEXT.js, and Bootstrap.</>,
+                    <>Built dynamic web applications with headless CMS integrations to enhance content management and user engagement.</>,
+                    <>Deployed projects to Vercel, ensuring seamless user experience and optimized performance.</>,
+                    <>Collaborated with clients to translate requirements into functional, visually appealing designs.</>
+
                 ],
                 images: []
             },
             {
                 company: 'Sawmill TTC',
                 timeframe: '2021 - 2022',
-                role: 'Director of Operations / Instructor',
+                role: 'Director of Operations / IT Support Specialist / Instructor',
                 achievements: [
                     <>Managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians.</>,
                     <>Oversaw IT systems used for facility operations and client interactions, including troubleshooting and configuration.</>,
@@ -103,7 +108,12 @@ const about = {
                 timeframe: '2017 - 2020',
                 role: 'Information Technology Support Specialist',
                 achievements: [
-                    <>As Director of Operations at the Sawmill Tactical Training Center, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the center’s digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
+                    <>Provided 2nd-level IT support to faculty and students, resolving hardware/software issues and network disruptions.</>,
+                    <>Deployed machines from centralized servers and managed user accounts through Active Directory.</>,
+                    <>Maintained documentation for recurring technical issues to support operational efficiency.</>,
+                    <>Investigated and documented data lineages throughout data lifecycle.</>,
+                    <>Diagnosed and repaired end-user devices, ensuring minimal downtime.</>,
+                    <>Upgraded all campus machines from Windows 8 to Windows 10 with zero student and faculty downtime.</>
                 ],
                 images: []
             },
