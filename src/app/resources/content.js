@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Full-Stack Developer',
+    role:      'IT and Web Solutions Engineer',
     avatar:    '/images/fam.png',
     location: 'South Carolina, US', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English']  // optional: Leave the array empty if you don't want to display languages
@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Shaping Digital Experiences with Passion and Purpose</>,
-    subline: <>Hey there! I’m Dustin, a <InlineCode>full-stack developer</InlineCode> passionate about building engaging digital experiences with clean, efficient <InlineCode>code.</InlineCode> From designing responsive front-end interfaces to developing rock-solid back-end solutions, I thrive on tackling every part of web development. In my spare time, I dive into personal projects to experiment with new frameworks and techniques—always sharpening my skills and staying ahead of the curve.</>
+    subline: <>Hi! I’m Dustin, a <InlineCode>full-stack developer</InlineCode> focused on creating engaging digital experiences with clean, efficient code. Whether it's crafting responsive front-end interfaces or building robust back-end solutions, I love diving into every aspect of web development. In my spare time, I work on personal projects to explore new frameworks and techniques, continuously honing my skills and staying current with the latest technologies.</>
 }
 
 const about = {
@@ -69,9 +69,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>
-I’m a full-stack developer specializing in responsive, user-focused web experiences. Starting with Squarespace, I quickly advanced to frameworks like React, Bootstrap, and Next.js, along with Node.js for back-end development, allowing me to build seamless, high-quality digital solutions from end to end. I use tools like Git, GitHub, and Vercel to optimize workflows and ensure efficient deployment, consistently delivering projects on time. By embracing AI and modern technologies, I prioritize efficiency and industry standards, crafting intuitive, engaging web experiences that drive results.
-</>
+        description: <>I’m a detail-oriented IT professional and Full-Stack Web Developer with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve focused on creating responsive, user-friendly websites using modern frameworks, combining IT expertise and development skills to deliver seamless, reliable digital solutions.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -82,7 +80,7 @@ I’m a full-stack developer specializing in responsive, user-focused web experi
                 timeframe: '2024 - Present',
                 role: 'Full-Stack Developer',
                 achievements: [
-                    <>I currently develop full-stack applications and websites for small businesses. Using Next.js and React, I focus on dynamic routing and server-side rendering for better performance and SEO. For static sites, I use HTML, CSS, and JavaScript to create clean, user-friendly platforms that showcase services effectively.</>,
+                    <>I develop full-stack applications and websites for small businesses. Using Next.js and React, I focus on dynamic routing and server-side rendering for better performance and SEO. For static sites, I use HTML, CSS, and JavaScript to create clean, user-friendly platforms that showcase services effectively.</>,
                     <>Utilizing Git and GitHub for organized version control and efficient collaboration. I streamline deployment with Vercel, ensuring fast, reliable updates that keep projects running smoothly.</>,
                     <>Leveraging AI tools to enhance productivity, meet deadlines, and deliver high-quality results. These innovations help improve development speed and elevate the overall user experience, supporting clients in reaching their business goals.</>
                 ],
@@ -91,27 +89,44 @@ I’m a full-stack developer specializing in responsive, user-focused web experi
             {
                 company: 'Kinetic Solutions LLC',
                 timeframe: '2021 - Present',
-                role: 'Instructor / Full-Stack Developer',
+                role: 'Full-Stack Developer / Business Owner / Instructor',
                 achievements: [
-                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By designing a user-friendly website, I simplify client connections, effectively showcase our work, and expand our reach—driving growth for our business.</>
+                    <>As the founder of Kinetic Solutions LLC, I lead our mission to provide practical, hands-on training for civilians, law enforcement, and military personnel. Our training focuses on building safety and confidence in high-stress situations. In addition to overseeing operations, I manage our online presence. By creating a user-friendly website, I make it easy for clients to connect with us, highlight our services, and expand our reach, helping our business grow.</>
                 ],
                 images: []
             },
             {
                 company: 'Sawmill TTC',
                 timeframe: '2021 - 2022',
-                role: 'Director of Operations',
+                role: 'Director of Operations / Instructor',
                 achievements: [
-                    <>As Director of Operations at the Sawmill Tactical Training Complex, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
+                    <>Managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians.</>,
+                    <>Oversaw IT systems used for facility operations and client interactions, including troubleshooting and configuration.</>,
+                    <>Managed company website and introduced a stream-lined UI/UX to drive traffic.</>,
+                    <>Managed inventory of IT equipment and facilitated procurement to maintain readiness for training events.</>,
+                    <>Provided technical training and support for in-house staff on software and communications tools.</>
+                ],
+                images: []
+            },
+            {
+                company: 'Colorado Technical University',
+                timeframe: '2017 - 2020',
+                role: 'Information Technology Support Specialist',
+                achievements: [
+                    <>As Director of Operations at the Sawmill Tactical Training Center, I managed daily activities, logistics, and a variety of training programs for military units, law enforcement, and civilians. I introduced strategies that improved efficiency and ensured high safety standards in all training sessions. I also supported the center’s digital strategy by maintaining the website and improving client engagement online, which helped increase our visibility and outreach.</>
                 ],
                 images: []
             },
             {
                 company: 'United States Army',
                 timeframe: '2004 - 2015',
-                role: 'Sniper Team Leader / Recon Team Leader / Infantry Squad Leader',
+                role: 'Recon Team Leader / Sniper Team Leader / Infantry Squad Leader',
                 achievements: [
-                    <>During my 11 years in the US Army, I held leadership roles such as Battalion Sniper Section Leader, Recon Team Leader, and Infantry Squad Leader. I developed and led training programs, managed assets worth over $5 million, and led teams in complex multinational missions. I also created protocols for classified operations and consistently achieved top scores in tactical training, showing my dedication to excellence and team effectiveness.</>
+                    <>Spearheaded comprehensive training initiatives that elevated skill development, operational readiness, and team cohesion.</>,
+                    <>Successfully managed and maintained accountability for assets exceeding $5 million, ensuring optimal resource utilization and mission preparedness.</>,
+                    <>Directed diverse teams during multinational operations, achieving mission success in dynamic and complex environments.</>,
+                    <>Developed and enforced rigorous protocols for high-risk missions, ensuring security, precision, and compliance with operational standards.</>,
+                    <>Consistently earned top scores in advanced tactical training, demonstrating an unwavering commitment to team effectiveness and operational excellence.</>,
                 ],
                 images: []
             }
@@ -140,38 +155,39 @@ I’m a full-stack developer specializing in responsive, user-focused web experi
         title: 'Technical skills',
         skills: [
             {
-                title: 'Front-End Frameworks',
-                description: <>React | Node.js | Next.js | Vue.js</>,
+                title: 'IT Tools & Systems',
+                description: <>Active Directory | Windows | Linux | macOS | iPadOS | iOS | Remote Desktop | TCP/IP | DNS | VPN | Wireshark</>,
                 images: [] 
             },
             {
-                title: 'Automation & Workflow Optimization',
-                description: <>Webpack | Gulp | npm | Continuous integration (CI/CD) with GitHub Actions</>,
+                title: 'Web Development Tools',
+                description: <>HTML | CSS | JavaScript | React.js | Bootstrap | Next.js | Hydrogen | Media Queries | Mobile-First Design | Bootstrap | Material-UI | Tailwind CSS | Webpack | Gulp | npm</>,
                 images: []
             },
             {
-                title: 'Web Development Languages',
-                description: <>HTML | CSS | JavaScript | TypeScript</>,
+                title: 'Deployment & Version Control',
+                description: <>Vercel | Netlify | AWS | Git | GitHub | Continuous Integration (CI/CD) with GitHub Actions</>,
                 images: []
             },
             {
-                title: 'Responsive Design',
-                description: <>CSS Grid | Flexbox | Media Queries | Mobile-First design</>,
+                title: 'Hardware & Software',
+                description: <>Machine Deployment | System Imaging | High-Performance Machine Engineering | SLDC | Machine Maintenance & Optimization | Software Installation & Configuration | Hardware Troubleshooting | Network Configuration
+            </>,
                 images: []
             },
             {
-                title: 'UI Libraries & Frameworks',
-                description: <>Bootstrap | Material-UI | Tailwind CSS</>,
+                title: 'Virtualization',
+                description: <>VMware | Hyper-V | VirtualBox | Docker Containers</>,
                 images: []
             },
             {
-                title: 'Deployment Platforms',
-                description: <>Vercel | Netlify | AWS</>,
+                title: 'Documentation',
+                description: <>IT Ticketing Systems | Knowledge Base Creation | Workflow Optimization | Technical Documentation</>,
                 images: []
             },
             {
-                title: 'Version Control & Collaboration',
-                description: <>Git | GitHub</>,
+                title: 'Compliance & Security',
+                description: <>Policy Creation | IT Security Standards</>,
                 images: []
             }
         ]
