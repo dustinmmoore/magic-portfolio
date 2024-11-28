@@ -156,7 +156,7 @@ const about = {
         skills: [
             {
                 title: 'IT Tools & Systems',
-                description: <>Active Directory | Windows | Linux | macOS | iPadOS | iOS | Remote Desktop | TCP/IP | DNS | VPN | Wireshark</>,
+                description: <>MECM/SCCM | Active Directory | Windows | Linux | macOS | iPadOS | iOS | Remote Desktop | TCP/IP | DNS | VPN | Wireshark</>,
                 images: [] 
             },
             {
