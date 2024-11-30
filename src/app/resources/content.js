@@ -1,4 +1,5 @@
 import { InlineCode, LetterFx } from "@/once-ui/components";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const person = {
     firstName: 'Dustin',
@@ -47,7 +48,35 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <><LetterFx>Crafting Seamless Digital Experiences and IT Solutions with Modern Innovation</LetterFx></>,
+    headline: <><span
+    style={{
+      fontFamily: 'var(--font-family-code)'
+    }}
+  >
+    <LetterFx
+      speed="medium"
+      trigger="instant"
+      charset={[
+        'X',
+        '@',
+        '$',
+        'a',
+        'H',
+        'z',
+        'o',
+        '0',
+        'y',
+        '#',
+        '?',
+        '*',
+        '0',
+        '1',
+        '+'
+      ]}
+    >
+      Delivering Digital Experiences and IT Solutions with Passion
+    </LetterFx>
+  </span></>,
     subline: <>Hi! I’m Dustin, a detail-oriented <InlineCode>IT and Web Solutions Engineer</InlineCode> with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve specialized in <InlineCode>full-stack web development</InlineCode>, designing responsive, user-friendly websites using modern frameworks. My combined expertise in IT and web development enables me to deliver seamless, efficient, and reliable digital solutions tailored to meet diverse needs.</>
 }
 
