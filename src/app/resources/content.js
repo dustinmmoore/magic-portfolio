@@ -135,7 +135,7 @@ const about = {
             {
                 company: 'Colorado Technical University',
                 timeframe: '2017 - 2020',
-                role: 'IT Support Specialist / CS Student',
+                role: 'IT Support Specialist',
                 achievements: [
                     <>Provided 2nd-level IT support to faculty and students, resolving hardware/software issues and network disruptions.</>,
                     <>Deployed machines from centralized servers and managed user accounts through Active Directory.</>,
