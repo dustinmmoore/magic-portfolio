@@ -190,7 +190,7 @@ const about = {
             },
             {
                 title: 'Web Development Tools',
-                description: <>HTML | CSS | JavaScript | React.js | Bootstrap | Next.js | Hydrogen | Media Queries | Mobile-First Design | Bootstrap | Material-UI | Tailwind CSS | Webpack | Gulp | npm</>,
+                description: <>HTML | CSS | JavaScript | React | Bootstrap | Next.js | Hydrogen | Media Queries | Mobile-First Design | Bootstrap | Material-UI | Tailwind CSS | Webpack | Gulp | npm</>,
                 images: []
             },
             {
