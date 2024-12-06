@@ -176,6 +176,10 @@ const about = {
             {
                 name: 'Pikes Peak State College',
                 description: <>Business & Business Administration</>,
+            },
+            {
+                name: 'New Horizons Computer Learning Center',
+                description: <>Information Technology</>,
             }
         ]
     },
