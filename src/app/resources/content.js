@@ -77,7 +77,7 @@ const home = {
       Delivering Digital Experiences and IT Solutions with Passion
     </LetterFx>
   </span></>,
-    subline: <>Hi! I’m Dustin, a detail-oriented <InlineCode>IT and Web Solutions Engineer</InlineCode> with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve specialized in <InlineCode>full-stack web development</InlineCode>, designing responsive, user-friendly websites using modern frameworks. My combined expertise in IT and web development enables me to deliver seamless, efficient, and reliable digital solutions tailored to meet diverse needs.</>
+    subline: <>Hi! I’m Dustin, a detail-oriented <InlineCode>IT and Web Solutions Engineer</InlineCode> with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve specialized in <InlineCode>web development</InlineCode>, designing responsive, user-friendly websites using modern frameworks. My combined expertise in IT and web development enables me to deliver seamless, efficient, and reliable digital solutions tailored to meet diverse needs.</>
 }
 
 const about = {
@@ -98,7 +98,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>I’m a detail-oriented IT professional and Full-Stack Web Developer with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve focused on creating responsive, user-friendly websites using modern frameworks, combining IT expertise and development skills to deliver seamless, reliable digital solutions.</>
+        description: <>I’m a detail-oriented IT professional and Web Developer with over five years of experience in technical support, system troubleshooting, and IT infrastructure management. Since 2021, I’ve focused on creating responsive, user-friendly websites using modern frameworks, combining IT expertise and development skills to deliver seamless, reliable digital solutions.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -108,7 +108,7 @@ const about = {
             {
                 company: 'Kinetic Solutions LLC',
                 timeframe: '2021 - Present',
-                role: 'Full-Stack Developer / Business Owner / Instructor',
+                role: 'Web Developer / Business Owner / Instructor',
                 achievements: [
                     <>Founded Kinetic Solutions LLC, delivering hands-on tactical training to civilians, law enforcement, and military personnel.</>,
                     <>Designed and developed responsive websites using HTML, CSS, JavaScript, React, NEXT.js, and Bootstrap.</>,
