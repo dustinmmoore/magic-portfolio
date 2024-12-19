@@ -109,7 +109,7 @@ const about = {
                 timeframe: '2021 - Present',
                 role: 'Web Developer / Business Owner / Instructor',
                 achievements: [
-                    <>Founded Kinetic Solutions LLC, delivering hands-on tactical training to civilians, law enforcement, and military personnel.</>,
+                    <>Founded Kinetic Solutions LLC to provide hands-on tactical training for civilians, law enforcement, and military personnel, while simultaneously leveraging technical expertise to create accessible, user-focused websites.</>,
                     <>Designed and developed responsive websites using HTML, CSS, JavaScript, React, NEXT.js, and Bootstrap.</>,
                     <>Built dynamic web applications with headless CMS integrations to enhance content management and user engagement.</>,
                     <>Deployed projects to Vercel, ensuring seamless user experience and optimized performance.</>,
